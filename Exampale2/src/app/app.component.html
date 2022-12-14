@@ -1,0 +1,39 @@
+<h1>{{title}}</h1>
+
+<div class="container">
+    <form #box="ngForm"  >
+        Name:<input type="text" ngModel placeholder="Enter name" name="name"><br><br>
+
+
+        
+            Gendar:<input type="radio" ngModel  name="radio" value="Male">
+            <label>Male</label>
+
+            <input type="radio"  ngModel name="radio" value="Female">
+            <label>Female</label>
+        <br><br>
+
+        Address:<input type="text" ngModel placeholder="Enter Address" name="Address"><br><br>
+
+        <!--<button>click</button>
+    </form>
+</div>-->
+
+<!--<h1 *ngIf="show; then ifblock;else elseblock"></h1>
+    <ng-template #ifblock>
+    <h1>If Else Example</h1>
+
+    <h4>hello shivani......</h4>
+</ng-template>
+
+<ng-template #elseblock>
+    <h2>try again....</h2>
+</ng-template>-->
+<div>
+    <h1>toastr massage</h1>
+    
+    <button type="button" class="btn btn-success"(click)="showSuccses()"  (ngSubmit)="getValue(box.value)">Submit</button>
+    <button type="button" class="btn btn-danger"(click)="showError()">Error</button>
+</div>
+</form>
+</div>

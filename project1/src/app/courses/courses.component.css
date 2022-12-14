@@ -1,0 +1,28 @@
+.container1{
+    text-align: center;
+    background-color: rgb(187, 215, 240);
+}
+h1{
+    color: rgb(155, 12, 83);
+    font-size: 50px;
+}
+h6{
+    color: red;
+}
+
+h2{
+    color: aliceblue;
+}
+.container2{
+    height: 500px;
+    width: 900px;
+}
+.nav-link{
+    color: black;
+    font-size: 30px;
+}
+
+img{
+    height: 500px;
+    width: 900px;
+}
